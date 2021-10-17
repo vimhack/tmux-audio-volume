@@ -20,6 +20,11 @@ Add plugin to the list of TPM plugins in your `.tmux.conf`:
 
 ```bash
 set -g @plugin 'windvalley/tmux-audio-volume'
+set -g @speaker_muted_volume_icon ""
+set -g @speaker_low_volume_icon ""
+set -g @speaker_medium_volume_icon 'ﱛ'
+set -g @speaker_high_volume_icon " "
+set -g @headphone_icon " "
 ```
 
 Hit `prefix + I` to fetch the plugin and source it.
